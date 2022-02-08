@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+	font-family: 'Outfit', sans-serif;
+	font-size: 15px;
+	min-height: 100vh;
+	background-image: url(./images/pattern-background-desktop.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: hsl(225, 100%, 94%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	border-radius: 1.1rem;
+	background-color: white;
+	max-width: 350px;
+	overflow: hidden;
+}
+
+.banner {
+	object-fit: contain;
+	width: 100%;
+}
+
+.order {
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.plan-box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.plan-price {
+	display: flex;
+	flex-direction: column;
+}
+
+.plan-change {
+	align-items: flex-end;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.pay a {
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+}
+.cancel a {
+	color: hsl(224, 23%, 55%);
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
