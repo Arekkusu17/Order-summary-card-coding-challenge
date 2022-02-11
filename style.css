@@ -40,9 +40,10 @@ body {
 	margin-bottom: 1.5rem;
 }
 
-.order h2 {
+.order h1 {
 	color: black;
 	font-weight: 900;
+	font-size: 1.5rem;
 }
 .plan-box {
 	padding: 0.5rem;
