@@ -66,9 +66,10 @@ body {
 	margin-left: 20px;
 }
 
-.plan-price h4 {
+.plan-price h3 {
 	color: black;
 	margin-bottom: -0.9rem;
+	font-size: 0.9rem;
 }
 .plan-change {
 	margin-right: 0.5rem;
